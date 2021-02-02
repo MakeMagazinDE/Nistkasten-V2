@@ -6,4 +6,7 @@ Stellen Sie den Trimmer einer der beiden LED so ein, dass sie auch bei zugehalte
 Das Einschalten kann man an einem schwachen roten Glimmen erkennen. Den Trimmer der anderen LED stellen Sie so ein, 
 dass die LED bei zugehaltenem Lichtsensor gerade einschaltet und schach glimmt.
 
+![Picture](https://github.com/MakeMagazinDE/Nistkasten-V2/blob/main/14-29-58.jpg) 
+
+
 Booten Sie danach den Raspberry erneut, da sich beim Bootvorgang die Kamera auf die Lichtverhaltnisse einstellt.
