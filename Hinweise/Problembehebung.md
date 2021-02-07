@@ -10,3 +10,5 @@ dass die LED bei zugehaltenem Lichtsensor gerade einschaltet und schwach glimmt.
 
 
 Booten Sie danach den Raspberry erneut, da sich beim Bootvorgang die Kamera auf die Lichtverhaltnisse einstellt.
+
+In den 3D-Druckdateien ist das Loch für den Lichtsensor des Kameramoduls absichtlich sehr klein. Es dient als Blende, damit die Kamera den Infrarot-Filter erst später zuschaltet. Erfolt die Zuschaltung zu spät, kann man den Durchmesser des Loches etwas erweitern.
