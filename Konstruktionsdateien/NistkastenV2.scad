@@ -1,0 +1,37 @@
+//color("#00bb0077")translate([96,44,0.1])mirror([0,1,0])import("/git/Nistkasten-V2/Konstruktionsdateien/Nistkasten.stl");
+
+difference(){
+    union(){
+        cube([140,140,3]);
+        cube([140,12,40]);
+        translate([0,128,0])cube([140,12,40]);
+        translate([70,70,-1]){
+            translate([6.75,14,2])cylinder(d=4.7,h=6.5,$fn=50);
+            translate([6.75,-14,2])cylinder(d=4.7,h=6.5,$fn=50);
+            translate([-6.75,14,2])cylinder(d=4.7,h=6.5,$fn=50);
+            translate([-6.75,-14,2])cylinder(d=4.7,h=6.5,$fn=50);
+        }
+    }
+    translate([70,70,-1]){
+        cylinder(d=16,h=5,$fn=100);
+        translate([-12.5,-14,0])cylinder(d=6.5,h=5,$fn=100);
+        translate([0,30,0])cylinder(d=19,h=5,$fn=100);
+        translate([0,30,0])translate([-7,-11,0])cylinder(d=6.5,h=15,$fn=100);
+        translate([0,-30,0])cylinder(d=19,h=5,$fn=100);
+        translate([0,-30,0])translate([7,11,0])cylinder(d=6.5,h=15,$fn=100);
+        translate([6.75,14,0])cylinder(d=2.5,h=10,$fn=50);
+        translate([6.75,-14,0])cylinder(d=2.5,h=10,$fn=50);
+        translate([-6.75,14,0])cylinder(d=2.5,h=10,$fn=50);
+        translate([-6.75,-14,0])cylinder(d=2.5,h=10,$fn=50);
+        translate([30.5,0,2.5])cube([20.5,15.5,5],center=true);
+        translate([18,0,4])cube([5,15.5,3],center=true);
+        translate([45,0,3.5])cube([11,10,4],center=true);
+        translate([43,-29,0])cylinder(d=2.5,h=5,$fn=50);
+        translate([43,29,0])cylinder(d=2.5,h=5,$fn=50);
+        translate([20,-29,0])cylinder(d=2.5,h=5,$fn=50);
+        translate([20,29,0])cylinder(d=2.5,h=5,$fn=50);
+        translate([0,-64,0])cylinder(d=4,h=40,$fn=50);
+        translate([0,64,0])cylinder(d=4,h=40,$fn=50);
+    }
+        translate([0,0,11])rotate([0,-atan(29/140),0])translate([-1,-1,0])cube([144,142,40]);
+}
